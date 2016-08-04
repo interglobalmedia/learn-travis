@@ -1,0 +1,22 @@
+{
+  "name": "learn-travis-interglobalmedia",
+  "description": "Simple Travis-CI check for JSHint (Code Linting)",
+  "author": "your name here :-)",
+  "version": "0.0.1",
+  "devDependencies": {
+    "jshint": "^2.9.2"
+  },
+  "scripts": {
+    "test": "./node_modules/jshint/bin/jshint hello.js"
+  },
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/interglobalmedia/learn-travis.git"
+  },
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/interglobalmedia/learn-travis/issues"
+  },
+  "homepage": "https://github.com/interglobalmedia/learn-travis#readme"
+}
